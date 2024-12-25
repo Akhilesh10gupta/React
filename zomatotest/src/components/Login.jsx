@@ -16,7 +16,7 @@ export default function Login() {
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
           <div className="w-96 bg-white p-6 rounded-lg shadow-md relative">
             <button
-              className="absolute top-2 right-2 text-gray-600 hover:text-gray-800"
+              className="absolute top-2 right-2 text-gray-700 hover:text-gray-800"
               onClick={() => setShowModal(false)}
             >
               &times;
