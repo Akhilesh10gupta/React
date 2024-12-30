@@ -1,17 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-export default function Login() {
-  const [showModal, setShowModal] = useState(false); // Declare the modal state
-
+export default function Login({ showModal, setShowModal }) {
   return (
-    <div className="h-screen w-full relative">
-      <button
-        className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition absolute top-4 right-4"
-        onClick={() => setShowModal(true)}
-      >
-        Login
-      </button>
-
+    <>
       {showModal && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
           <div className="w-96 bg-white p-6 rounded-lg shadow-md relative">
@@ -75,6 +66,6 @@ export default function Login() {
       )}
 
       <div className={`h-full bg-gray-100 transition ${showModal ? 'blur-sm' : ''}`}></div>
-    </div>
+    </>
   );
 }
