@@ -17,7 +17,7 @@ export default function Login({ showModal, setShowModal }) {
 
             <div className="mb-4">
               <label className="block text-sm font-medium text-gray-700 mb-2">
-                Phone number
+                Phone Number
               </label>
               <div className="flex">
                 <span className="inline-flex items-center px-3 border border-r-0 border-gray-300 rounded-l-md bg-gray-50">

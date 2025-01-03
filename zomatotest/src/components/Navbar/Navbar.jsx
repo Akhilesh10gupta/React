@@ -17,7 +17,7 @@ export default function Navbar() {
             src="https://www.svgrepo.com/show/519560/swiggy.svg"
             alt="Swiggy Logo"
           />
-          <span className="text-xl font-bold">Swiggy</span>
+          <span className="text-xl font-bold">Swiggy </span>
         </div>
 
         {/* Menu for Large Screens */}
