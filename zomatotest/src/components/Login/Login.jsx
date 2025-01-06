@@ -21,7 +21,7 @@ export default function Login({ showModal, setShowModal }) {
               </label>
               <div className="flex">
                 <span className="inline-flex items-center px-3 border border-r-0 border-gray-300 rounded-l-md bg-gray-50">
-                  +91
+                   +91 
                 </span>
                 <input
                   type="text"
